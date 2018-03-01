@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: listing environment
+# key: listing
+# --
+\begin{listing}[ht]
+\centering
+\begin{${1:lang}code}
+\end{$1code}
+\caption[$2]{$3}
+\label{lst:$4}
+\end{listing}
