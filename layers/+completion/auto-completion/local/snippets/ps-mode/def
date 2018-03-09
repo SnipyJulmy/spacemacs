@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: def
+# key: def
+# --
+/${1:identifier} {
+    ${2:code}
+} def
